@@ -1,0 +1,6 @@
+Day In review 
+Today, we delved deeper into the specifics of grep, followed by a discussion on user management. 
+This led us to explore IAM (Identity and Access Management), which consists of Identity, Authentication, Authorization, and Accounting.
+In Linux, we learned the distinction between users and groups, as well as the concept of primary and secondary groups. 
+Additionally, we covered how the shadow file separates passwords from usernames, while the passwd file contains other non-confidential user information.
+We also explored the function of SUDO, including how it can be used to add a user. Finally, we wrapped up with an introduction to the basics of encryption algorithms.
