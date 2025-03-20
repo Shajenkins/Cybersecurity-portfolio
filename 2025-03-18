@@ -1,0 +1,9 @@
+Day in review 
+On this day we focused on permissions and the difference between permissons and rights. 
+Also how ownership is assigned defining who has control. 
+We tied in how whoami from the earlier lessons is what is used to identify the current user or group.
+Later in the class we went over absolute and octal modes , which felt a lot like binary all over again. 
+Furthermore we did some excercises to see how much we understood the permissions.
+Last but not least , we covered chmod and chown and the different changes that can be made with each.
+Before class ended a few people from TAG came in to take a peak at what we were learning and introduce themselves as well as pick our brains a little. 
+It was a very productive day !
