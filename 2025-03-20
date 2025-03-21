@@ -1,0 +1,8 @@
+Day in review
+On this day we went over what was taught in class monday and tuesday , In which we then followed up with source code and the way it differs from compiled code. 
+We also went over package managment, its purpose and the advantage of of having them. 
+The two main faimly types of package management systems in linux are Debian and RedHat Linux.
+Redhats software packages contain the members; rpm,yum, and dnf .. while Debian contains dpkg and apt.
+We also discussed dependencies and how they're like the steps or ingredients to make the software run. 
+One of the last things discussed was how to trouble shoot wifi issues to connect to a server .
+Last but not least the admins came in and spoke on the multiple areas we are being obsesereved in aside from testing to be admitted to the next level of the course. 
