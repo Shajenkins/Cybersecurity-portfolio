@@ -1,0 +1,9 @@
+Today, we took a deeper dive into IPv6 versus IPv4. One key difference is that IPv6 incorporates the MAC address, while IPv4 uses a dotted decimal format. 
+We also explored other distinctions, like how IPv6 relies on hexadecimal, whereas IPv4 is based on binary.
+Another topic that threw me off for a moment was reserved private IP addresses. 
+At first, I assumed that private IPs were categorized differently from public ones within the class system, but I realized that private addresses exist within Class A, B, and C—it just depends on the range.
+We also covered NAT (Network Address Translation), which allows multiple devices on a private network to share a single public IP. Without NAT, IPv4 addresses would've been exhausted long ago!
+Digging deeper into DHCP (Dynamic Host Configuration Protocol), I learned how it automatically assigns IP addresses, unlike static configurations where you manually set them.
+One thing that stood out to me was how DHCP, DNS, and the Default Gateway often share the same IP address—usually because the router handles all three functions.
+Finally, we broke down the Domain Name Space structure: it starts at the root, followed by the Top-Level Domain (TLD), then the Second-Level Domain (SLD), and finally the host computer.
+I really am enjoying learning networking so far. 
