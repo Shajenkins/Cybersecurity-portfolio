@@ -1,0 +1,12 @@
+Day in review...
+Today we reviewed nslookup , dig, resolvectl, default gateway, ping , traceroute, ARP, tcpdump, and wireshark. 
+Nslookup, dig and resolve gather and test name resolution info in their own depth.
+The default gateway is a network device (router) that connects different networks and allow data to flow between the same network. 
+A ping is something that verifies the connectivity in a network.
+A traceroute is similar to ping, but it notates the hops from each router path between source and destination. 
+Tcpdump collects packets and frames and segment that determine the traffic type and content. 
+While wireshark is the same as tcp it differs in the fact that its GUI vs tcp is CLI. 
+YAML is a human readable data serialization , that ain't markup langauge . Also defined by JSON. 
+ We also reviewed a daemon, which is aka a process and service. 
+ last but not least we reviewed systemctl command and the importance in controlling systemd units. Using subcommands such as start,stop,restart,enable and last, but not least reload. 
+
