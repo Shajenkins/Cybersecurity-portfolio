@@ -1,0 +1,13 @@
+Day In Review..,
+On this day we touched on firewalls and how they act as a protective barrier between private network and the internet by filtering and routing.
+We also jumped into the ACL , Which is known as the access control list , which are rules to process packets that allow or denies certain IP addresses, port numbers and protocols.
+Continuing on-- we learned the difference between a host and network based firewall.
+W hile host is strictly software that protects the computer only; network based is hardware and software that protects the entire network.
+In this lesson we also learned that a firewall contains two major actions; packet routing and the access control list. 
+Linux firewalls are based upon a netfilter used for network address and port translation. 
+Building upon that is the iptable that contains statements that tell the system what to do with a packet, whether its blocking or forwarding. 
+As far as uncomplicated firewalls, they are exactly as they sound-- a firewall that is GUI based and user friendly. 
+To continue, we learned that in a firewall you have zone. These are preconstructed rules for trust levels that are applied to different network interfaces.
+Last, but not least we learned the importance of SSH authentication, which requires both a private and public key pair. 
+Whereas the public key can be given away, but the private key is to NEVER be shared. The private key signs and encrypts; while the public key, verifies and decrpyts. 
+The test to pass linux and become fully admitted into the course is on Monday, and I am feeling confident and encouraged. 
