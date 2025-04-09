@@ -1,0 +1,43 @@
+ Day in Review...
+Today I didn’t have a lot of time to study in-depth, but I made the most of my spare moments at work by tuning into Professor Messer’s free videos on networking. 
+Even with a few interruptions here and there, I was still able to get a general feel for the material.
+Some of the information didn’t stick as well due to the distractions, but I’m planning to revisit the videos tomorrow with more focus and take proper notes. 
+I’ve realized that even small moments of review help build the foundation—so I’m staying consistent, even on the busier days.
+Oh and here are the notes from the quiz that I forgot to include... Yes they are a bit repetitive to what we have learned in class, but again that's what helps me.
+End systems: Nodes that send and receive data traffic . 
+Peer to peer network: Decentralized , computer acts as client & server , provisioning , management, and security of services & data. 
+Virtual private network(vpn): Secure remote access 
+Client-server: Centralized , main server 
+SOHO(small office home office): 1-15 users, decentralized , no structured cabling 
+WAN(wide area network):Spans across cities, countries and the globe. 
+Data center: Infrastructure to massive house servers. Ie. facebook, google, amazon,
+Small medium enterprise (SME): Structured cabling, centralized management and up to 50 users
+Mesh: When every device is directly, physically connected. 
+Doesn’t employ wireless access points. Expensive, redundant, but super reliable . 
+Ring: Devices connect in a circle. Think 4x1 race passing the baton. One talks to the next in line . 
+Star: Everything connects to the central device (switch or hub “forwarding appliance” ). 
+No direct device to device .
+Star II: Each device has its own dedicated line to the central switch 
+Ie if one cable only goes out only that device is affected .
+Bus: Devices connected to a single backbone . all devices share the same communication medium, no central forwarding appliance.
+Logical: How data flows, not how wires are laid . Ie even if it's a physical star, or something else it can behave like a full mesh. 
+Mesh II: Just because one link between devices is broken, doesn’t mean it’ll stop connection via all the other devices, simply because there are multiple paths for communication. Can act as sender and receiver. Devices can communicate directly with nearby devices.Best for IoT
+Ad Hoc : Temporary network formed  by devices that connect directly without needing a central device. Like P2P, but short-term. Ie Hotspot
+Media Converter: Converts one type of physical medium to another. Ie converting fiber optic to copper ethernet. Layer 1: Directly handles physical transmission of data between different mediums. 
+Switch: Layer 2: Datalink, Forwards data frames based on MAC addresses. Manages traffic 
+Bridge: Layer 2: Connects different segments of the same network, makes decisions based on MAC address. 
+VOIP endpoint. Voice over IP , Layer 5: application or Layer 3: routing 
+NIC: Data Link layer; responsible for providing physical interface for computers to connect to network. Handles framing MAC addressing, and error detection.
+Gateway: Layer 3 (Network) or Layer 7 (Application) Perform protocol translation that allow different networks to communicate. Ie Ip —> another protocol 
+Repeaters: Physical Layer 1: To amplify or regenerate signals to extend the range of the network.
+ACL “Access Control List”: To filter network traffic by allowing or denying  packets based on IP addresses and other criteria
+Network Layer 3: Routing packets from source to destination. Uses IP addresses to identify devices on different networks, providing necessary logical addressing to make sure data goes to the right destination . Packet forwarding between devices across networks based on their IP address. 
+Transport Layer 4: Data Segmentation and reliability, End to end flow control, reliable message delivery. Port numbers (TCP / UDP)
+The presentation layer supports data compression and encryption to prepare data for network transmission. Layer 6
+The session layer establishes, maintains and terminates dialog between client and server
+Troubleshoot: Identify , Establish, Test, Plan, Implement, Verify, Document
+Divide and conquer approach: Identifying the most likely layer causing the issue based on symptoms and preliminary information, then working up or down the OSI model as needed to isolate and resolve the problem. 
+Protocol Data Unit (PDU): A chunk of data with protocol specific headers added at each OSI layer.
+Primary purpose of data encapsulation in network protocols: To add data layers for routing and deliveries. 
+
+
