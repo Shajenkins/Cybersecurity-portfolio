@@ -1,0 +1,21 @@
+Day in Review...
+Today was our first day back and we bagan with a recap of the notes from the week before spring break.
+From information such as wired (Ethernet) vs wireless (antenna), shielded vs unshielded, stp vs utp, and hubs which though on the physical layer, led us to deciphering the differnce between that and the switch found on the data link layer.
+Mr.Daryl also made sure to emphasize the history of how trasnmissions were passed through so that we learned how we made it to ethernet and the advantages of it.
+One thing that stood out to me today was the "CSMA/CD" which stand for carrier sense multiple access collision detection . 
+Basically saying the switch carries the transmission to the medium, then the carrier senses by listening / detecting if its okay and multiple access is allows a node to transmit data. 
+If the medium is not busy, the node sends data, if it is the node backs off and waits. 
+Another thing is the switch being intelligent vs the hub which isn't. And it's because the hub is public with the data transmission-sending it out of all the ports.
+While a switch is more private, personal, and direct. It manages this exclusivity by learning the MAC address.
+I learned today that ethernet is a basband system meaning it only contains one frequency, while broadband uses multiple frequencies. 
+We also touched bases on IEE standards from 10Base-T to 1000Base-lx and how to read the standard to understand what it's actually doing. 
+The name itself-contains the speed, signal and media. Ie (10)(Base)(T) 
+Following up with that we learned about the Wavelength Division Multiplexing (WDM), Coarse Wavelength Division Multiplexing (CWDM) and Dense Wavelength Dision Multiplexing (DWDM)
+Last, but not least we tocuhed on bridges, the ethernet frame: preamble, desitnation MAC, Source MAC, Type, Data and FCS (Frame check sequence): which checks for errors.
+And we ended the day with simplex, 1/2 duplex and full duplex. Which differs in the amount of infromation allowed to transmit and the direction it can travel in. 
+Simplex being one direction; ie key fob, garage door opener, and baby monitors.
+Half being both directions-one at a time; ie walkie talkie.
+And full being 2 way communication, where a signal travels in both directions simultaneously; ie a telephone. 
+To finish our day off Primous and Ms. Anggie came to go over the conditions of the contract and requirements to continue in this course.
+Honestly a pretty decent day. Not too fast, Not too slow and being that I viewed todays slides last night-I found it pretty helpful in not being blind sided with the content of todays class. 
+
