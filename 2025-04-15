@@ -1,0 +1,28 @@
+Day In Reviw..
+Today we discussed UTP patch cables which are known to have an rj45 connecter on both ends that connects to 2 electronic devices. 
+A patch cable can vary from a straight through, cross over or roll over. 
+When dealing with a straight through, the wiring is connecting devices on different layers of the OSI model; ie. switch to computer.
+While cross over refers to a wiring that connects devices on the same level; ie computer to computer.
+And a rollover is connecting a router to network devices through a console port in order to manage them. 
+Another topic discussed in class was the in-bound / out-bound management and what I got from it is that in-bound is basically remote, while out-bound is physically managing.
+We did not stop there, as we touched basis on MDI and MDI-X. MDI being for routers and PC's and MDI-X for switches and hubs. 
+And can't forget the auto MDI-X which allows auto switching once the cable is connected. 
+Then we wen into ways to retrieve frames and packets, which led us to SPAN and TAP. 
+SPAN is specific collecting data from a particular port, while Tap collects as a whole-including from the firewall.
+Some examples of tools that does the grabbing are wireshark; which is GUI and the command Tcpdump; which is of course CLI.
+Last but not least we went over the ethernet switch, collision and broadcast domains. 
+As far as the ethernet switch goes, when it is managed the setting are configurable vs it being unmanaged. 
+And when these ethernet switches are stacked, they then operate as one unit. 
+When dealing with ethernet switches you have modular and fixed ports. One being removable and the other not. 
+The port security in a switch is what makes it intelligent by learning the MAC address from the MAC or CAM table and validating them before transmitting any data. 
+When dealing with ports you have something called port aggregation; in which this combines multiple links into a single local channel,to increase bandwidth and provide redundancy. 
+As well as LACP Link aggregation control protocol, which auto negotiates links between switch ports and end point, detects configuration errors and is capable of recovering from a failure of one of physical links.
+When it comes to collision and broadcast domains we learned how each devices effects them.
+The hub creats and expands collision domains, by not being smart enough. While the switch seperates them as well as creates broadcast domains, giving every conversation between devices full bandwidth of networks. 
+And in that, we learned that if you detach a hub to a switch it will expand the collision domain to that switch por, but the rest of the switch ports will be fine due to the switches particular choosing.
+And one of the last things that was discussed in the lecture was the PoE Power over ethernet. Highlighting the fact that an ethernet cable has 8 wires in which all deliver data and power via different frequencies. 
+In which a device obtains power over copper wire in an ethernet cable, therefore eliminating the need for a seperate power cables, but in order for power to be transferred through the cable, it must be connected to a power sourcing equipment device (PSE).
+To wrap this up we learned that A PoE injector converts a non-PoE switch without the need of replacing the equipment.
+We ended the day by diving into the compTIA labs actually seeing what it would be like to hook up some wires and get a router working.
+What's been most intersting is realizing, ive been doing this stuff all my life, I just has not idea of the names and depth behind it.. I'd always use my critical thinking and put two and two together..
+Super excited to do more of these labs. 
