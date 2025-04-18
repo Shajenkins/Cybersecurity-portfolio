@@ -1,0 +1,15 @@
+Day In Review...
+Today we began on subnet masks...
+I must say it has been one of the hardest days for me so far, Although I was getting a little discouraged I have great classmates that were there to try an dhelp me understand. 
+I learned that the subnet mask differenciates the network from the host number.
+In this,I realize that I understand the classes and which part of the subnet mask to look at.
+I can identify the class, if the IP is public or private and that if there is no subtnt mask to assume the default. 
+I also know that with the IP + subnet mask you can identify the network, 1st, 2nd, 3rd, and the broadcast.
+I believe without Mr. Daryl's chart it would be ALOT more difficult for me to understand.
+I am aware and am capable of identifying the long hand subnet and CIDR, for me I realize I am struggling finding the net and broadcast.
+From my understanding, the goal is to identify where the host lies...
+In order to do that you must split them into families, identify which are the net and broadcast then Identify where the host will lie in betwwen those four families.
+But somewhere int the process I am finding myself confused..
+I will be reaching out for a tutoring session in this subject.
+We also touched basis oN IANA, ICANN and APIPA. 
+IANA assigns authorized entities to public unique IP addresses and operate under ICANN, while APIPA will assign a temporary IP if the DHCP process does not respond in giving an IP,
