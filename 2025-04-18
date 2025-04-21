@@ -1,0 +1,11 @@
+Day In review...
+On today we jumped deeper into subnetting and it definetly helped with my understanding.
+I know if focus on more practice questions I will have an easier time understanding as well as implementing Mr.Daryls chart. 
+A subnet increases the number of devices that can be added to a LAN.
+It reduces traffic congestion and processing load on computers and routers, while isolating sensitive systems on the NET and effieciently allocating available IP's.
+The difference between classful and classless-as one uses default subnet mask while the other completely ignores the default and borrows bits from hosts.
+As far as Address Resolution Procotol (ARP) it's known to map the IP address to the MAC address. It finds another computers MAC address based on IP.
+When it comes to the casting process of IP addresses, they vary from IPv4 to IPv6, as IPv4 provides unicast, multicast and broadcast.
+Unicasting is from one station to another , multicast is from one to everyone at once, while broadcast is from one to many "interested" devices.
+IPv6 provides Unicast, multicast, and anycast-and anycast is one to the nearest; which is determined by hops, distance, efficiency, and latency.
+Class ended a bit early today, but we did start on a few more of the labs in comptia+ as well. 
