@@ -1,0 +1,22 @@
+Day In Review...
+Today we focused on routing-which lies within the third layer involving networking.
+The first question used to stimulate our minds was "How does a router know the other routers are there?"
+In which we began expanding on metrics and rules. Those of which are used to determine the "best pathway". Whether via hops, speed or latency.
+Routing over all is known to transfer packets from one network to another using a router, joining two or more networks, maintaining the path and transmitting based on IP addresses.
+One of the biggest differences between a router and a switch is that the router connects 2 or more LANs, while the switch specifically connects to its own LAN.
+When it comes to routing; you have routing packets and data packets, in which routing packets are like the roadtrip itself, checking, discovering- while the data packets are the actual transmission of data.
+You have static and dynamic routing. Static manually configuring to a predetermined destination. It is simple, secure, reliable, predictable, and efficient.
+On the other hand, dynamic is based upon an ALGORITHM that determines the best path. Known to be more flexible, resilient, complex and less secure. 
+So, they both have their pros and cons. 
+We learned about the different routing metrics; such as hop count, bandwidth, traffic, latency, and (MTU) Max Transmission Unit( The max size a packet can be transmitted.
+When dealing with routing you have a payload and frames. The main thing is the payload never changes, but the frames get broken off and wrapped into another. 
+Though the packets are transmitted based on IP addresses, the ARP is used to find the MAC address-which also never changes.
+One major thing is that the default gateway must always be a router, it can never be a workstation.
+Within all of this; we also learned the process of packet forwarding.. Receive, Examine, Consult, Decide, and Forward .
+When Dealing with the routing ALGORITHMS; you have variations such as 1.Distance-Vector, 2.Link-State, and 3.Hybrid. 
+Other terms we focused on were; Routing info, interior gateway protocol, open shortest path first, intermediate system to intermediate system and enhanced interior gateway.
+1.RIP, IGRP; Router shares with neighbor, easy to setup/configure, slow convergence, and metrics are base on hops. Used for smaller networks. Based on rumors.
+2. OSPF, IS-IS; shares with all other routers, provides a complete view of network decisions, and based on factual information. 
+Difficult to setup/configure, fast convergence and metrics based on bandwidth, latency, and even cost.
+3.EIGRP
+Last but not least the ALGORITHM, will be based on CPU and RAM.
