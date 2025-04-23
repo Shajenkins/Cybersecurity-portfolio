@@ -1,0 +1,20 @@
+Day in review...
+Today in class, we discussed NAT (Network Address Translation)
+A process that translates a public IP to a private or vicd versa, helps preserve limited amount of IPv4-by allowing one IP to be used by all the devices outside of a network.
+It is known that private IPs are only used internally, while public are used externally.
+Has the advantage of eliminating the use of IPv6.
+There are four differnet variations of NAT; 1.Static(SNAT), 2.Dynamic(DNAT), 3.Port(PAT) and 4.Port forwarding.
+1. SNAT, though static is normally used to identify a manual input, in this case it also represents a constant, as this NAT never changes. 
+Also known to be limited to a number of IPs/leases.  *This* is predetermined to tie to *This* Incoming traffic.
+2.DNAT, though known to represent auto input of information, in this case is also reprsented as a data pool of information. 
+This variation is constantly changing via the pool of available IPs/ leases available. 
+It will remain the same as long as the connection is made, but once it is dropped so is the DNAT. AKA IP masquerading.
+3.PAT is currently the most common variation used, it acquires the translation, by port number to keep the IP's organized. Handles taffic going out of the internet.
+4.Port forwarding is one that controls the incoming traffic from the internet to the servers via rules 
+that allow specifc connections to reach devices inside a private network-based on the port number the traffic is trying to access.
+An edge router is known to be at the boundary of a network which connects to an external network, manages the flow of databetween the internal 
+and external network and routes data to its destination and applies NAT along with security measures.
+This provides load balancing and fault tolerance.
+In that aspect ypu have 1.customer vs 2.provider edge. 
+1.Connects internal network to providers network acting as a security barrier for customers network.
+2.Focuses on maintaining th e integrity and confidentiality of customer data a it travels accross poviders net.
