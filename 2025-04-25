@@ -1,0 +1,36 @@
+Day In Review...
+Today in class we talked about firewalls, what they do, the different types and why they're effective in their own ways.
+From hardware, to software, cloudbased and unifies threat managment.
+A firewalls is known to filter via MAC address, IP address, domain name, subnet mask, port number, traffic, key words, protocol or even conversation.
+When using a stateless firewall you are working with predefined rules & no history, one packet at a time on layers 3 and 4.
+While a stateful firewalldeals with data flow, recording data history, more than one packet at a time.
+Host based is software only protecting the computer, network based is a hybrid of software and hardware protecting the entire network.
+An intranet is a private network that is heavily protected by many devices.
+You have portfiltering, MACfiltering, IPfiltering and contentfiltering which are all applied in a statelessfilter.
+While dynamic filtertering is applied to stateful. As those packets are examined as a stream.
+The procees of a stateful firewall involves it taking packets-reassembling them into their original data, 
+making a forwarding decision based on data content, which then allows or denies.
+Unified Threat Management combines a firewall, antivirus and intrusion protection.
+Another level of filtering is circuit level gateway which makes decisions based on virtual circuits in the session layer 
+and verifies established TCP connections and keeps track of active sessions.
+The Application layer firewalls decide based on application, 
+it doesnt allow incoming traffic to travel into the network unless it is created in a specific application.
+Appliance firewall is just a stand alone, just a firewall.
+A router can have firewalla functionality built in.
+When dealing with a proxy it is known as the middle man, as it hides your public IP address, acting as an agent for the client.
+The proxy will retrieve the website for you and stores it in a centralized cache database.
+It's known to save bandwidth by already having the cached data so it doesnt have to work as hard to retrieve a second time around. 
+Although it cannot encrypt data, using a VPN can, with no logging and it works through a secure tunnel. 
+Yesterday we started to see the similarities in NAT and Proxy, but the main thing that makes them different is the fact that proxy filrer while NAT doesn't.
+Closing out the class we started to go over network types PAN, CAN, LAN, WAN, MAN, AND SAN.
+1.Personal, 2.Campus, 3.Local, 4.Wireless, 5.Metropolitan, and 6.Storage. 
+1. Kind of speaks for itself, like a bluetooth.
+2. Conncects 2 or more LANs together.
+3. Is a group of devices located in close proximity. With ethernet being the most common. 
+4. Wireless communication
+5. Larger than CAN, spans over several buildings in a city.
+6. A special high-speed network that stores and provides access to large amounts of data.
+To end class we reviewed the different topologies ( how networks are connected; whether physical, logical or hybrid)
+While also touching on a new one "3 Tier Hierarchy" that contain core , distibution and access servers. 
+Towards the end of the day a select few of us attended a feedback meeting which I felt will be productive to the upcoming cohorts.
+We also attended Napa24' graduation ceremony which was a delight and absolutely inspiring. 
