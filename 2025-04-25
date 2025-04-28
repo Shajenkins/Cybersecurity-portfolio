@@ -1,0 +1,21 @@
+Day In Review...
+Today we went over collision domains, broadcast domains and and VLANs.
+When dealing with collision and broadcast domains, hubs are known to expand collision domains-being that they are unintelligent. 
+While routers are known to seperate broadcast donmains and switches are known to expand broadcast domains.
+A VLAN is a virtual local area network, it is known for spliting one physical network into multiple mini networks. 
+Being that they seperate network traffic , one VLAN cannot communicate with another without a router involved.
+We learned that if a router doesn't get response it will ask default gateway.
+A way to connect multiple broadcast domains is by using VLANs.
+Multiple VLANS within a switch are connected by a layer 3 device.
+It seperate traffic logically and prevents heavy congestion byh seperating broadcast domains. 
+Reasons for VLANs are segmentation, simple network design/deployment, along with easy troubleshooting and management.
+While reviewing subnets and VLANs we realized they were alot alike, we found that the biggest difference is one is physical while another is virtual.
+VLAN enabled switch ports can be configured to seperate network traffic, which makes it smoother and easier to use. 
+Subnetting implements IP segmentation and IP addressing, routing.
+While a VLAN implements logical segmentation via tagging traffic with VLAN ID.
+A static VLAN is defined by thr jack, involves 1 port to 1 VLAN.
+While a dynamic VLAN is defined by MAC addressing and involves 1 port to multiple VLANs.
+InterVLAN checks the network between different VLANs.
+A router on a stick consists of router and a switch , an ethernet (one link) configured as 802.1q trunk.
+Multilayer switch involves interVLAN routing.
+A trunk is a logical configuration, IP converter, a link from switch to router.
