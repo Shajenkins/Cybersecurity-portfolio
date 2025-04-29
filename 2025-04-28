@@ -1,0 +1,37 @@
+Day In Review..
+Today we began by focusing on the application layer...
+In that we touched on ports, their purpose, function and more.
+A port is not a physical connection, but a logical one. 
+For some time I personally didn't understand why Mr.Darryl would refer to the 
+physical connection as a jack and not a port, but now I get it.
+A port is known to determine which program/service on a computer/server is going to be used. 
+It is a 16 bit value
+The process is something like DNS-->IP-->assigned port to IP.
+There are three different ranges of ports; System/Well known (0-1023), 
+User/Registered (1024-49151), & Dynamic/Private/Ephemeral (49152-65535).
+System/Well known ports are reserved by TCP and UDP and are assigned by IANA: Internet Assigned Numbers Authority.
+The Registered/User port range is not assigned or controlled by IANA, but users must register with IANA.
+And finally the Dynamic/Ephemeral range is open to use without IANA approval and is used by client programs.
+Ephemeral means it is a temporary port number.
+We went over many of the System/well known ports such as: HTTP 80, HTTPS 443, RDP 3389, FTP 20-21, 
+SMTP 25, SSH 22, POP3 110, TELNET 23, DHCP 67-68, DNS 53, TFTP 69, SNTP 123, IMAP4 143, 
+IDAP 389, SMB 445, SIP/VOIP 5050-5051, and MYSQL 3306.
+To follow up , we discussed NETSTAT, a CLI tool used to display current network connections and port activity.
+We also learn the difference between a connection vs a session. A connection represents a medium or channel connected for communication.
+While a session refers to the limited time of the convo between two systems.
+All sessions must have a start and an ending.
+When dealing with TCP/IP any single connection between two computers is a session.
+A computer can simultaneously have many sessions and connections.
+A socket is and IP + Port number . One side of a socket is the endpoint , two sides is a socket pair or end points.
+TCP/UDP uses sockets to communicate with each other.
+Connection= 2 sockets + 2 endpoints
+When using TCP you have a 3 tier handshake: starting from your computer it sends a SYN (synchronization) signal, 
+then the other computer sends a SYN ACK (acknowledgment) and the original computer signals that the ACK was received and the data is then delivered.
+Last, but not least we reviewed NETSTAT, a CLI command that resolves numbers to names and can be combined with subcommands or switches to alter the outcome.
+Some examples of this are as followed; netstat -n: showing numbers only, netstat -a: showing active connections, netstat -l: listening ports, 
+netstat -p: showing the running process, netstat -b: showing the running program(s), netstat -t: showing the tcp socket, netstat -f: showing fully qualified DNS, and netstat -r: for routing.
+To wrap up the day we reviewed DHCP and dug a little deeper. This service runs on ports 68 & 69. It uses the process called D.O.R.A; Discover, Offer, Request, Acknowledge. 
+We covered what a scope is, which is a range and lease ( the amount of time an IP can be used). We also went over reservations and exclusions, one being “Hold this for me” and another being “Don’t touch this”.
+IP’s are leased and not given to prevent IP addresses from running out.
+When using DHCP, instead of having multiple you can have one, by using a DHCP relay agent that can be enabled through CLI 
+Oh and don’t let me forget DHCPv6, involving SLAAC: A stateless address automatically configured. It’s the hosts ability to retrieve the address by itself. Stateless meaning no server maintain a state (IP) for a longer period of time than a lease allows. 
