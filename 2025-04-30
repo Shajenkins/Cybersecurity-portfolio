@@ -1,0 +1,75 @@
+#  Day In Review – Time, Priorities & Application Layer Protocols
+
+---
+
+## The Value of Time – Mr. Ron Cofield's Wisdom
+
+Mr. Ron Cofield hit us with a truth bomb about **time**.  
+> "There are 86,400 seconds in a day. We all have the same amount of time – it's what we do with it that matters."
+
+### Key Takeaways:
+- Imagine if you had a **bank account** that deposited 1 cent per second... would you cherish it more?
+- Would you **sell a year** of your life to a millionaire like Oprah? Some folks bid, but **mine is PRICELESS.**
+- Time is our greatest currency. Use it **intentionally.**
+
+### How to Use Time Better:
+- Build efficient **habits** and **discipline**
+- **Prioritize** key tasks
+- **Remove distractions**
+- Focus on **impact**, not just activity
+
+He closed by asking us to **reflect on how we plan our days**. A powerful moment, no lie.
+
+---
+
+## Feedback Discussion – Jahari & Jeanie
+
+We followed up with a feedback session led by **Jahari and Jeanie**.  
+Felt real, felt grounded — and honestly, I believe the core of it was **effective**. Fingers crossed 🤞🏽 that we redevelop the pieces for high productivity.
+
+---
+
+## Professional Development – ft. Mr. Darryl
+
+Even though it was our normal professional dev day, we got to work hands-on with **Mr. Darryl**, which was a welcome switch-up.
+
+---
+
+## Application Layer Protocols (OSI Layer 7)
+
+We reviewed the **Application Layer**, which provides services directly to the user or application.  
+Examples include: `DHCP`, `DNS`, `HTTP/S`, and more.
+
+---
+
+## SSL vs TLS
+
+| Protocol | Description |
+|---------|-------------|
+| **SSL (Secure Sockets Layer)** | Secures internet traffic. Uses **public key encryption**, verifies website identity, and allows **trusted data exchange**. |
+| **TLS (Transport Layer Security)** | The **successor** to SSL. More secure and modern. Commonly used in HTTPS communications. |
+
+---
+
+## Protocols Reviewed
+
+| Protocol | Port(s) | Description |
+|---------|--------|-------------|
+| **TFTP** | 69 | Trivial File Transfer Protocol – connectionless, **UDP**, unsecure, local network transfers only |
+| **SMB** | 445, 137, 138 | Server Message Block – file/printer sharing over network, device communication |
+| **NFS** | 2049 | Network File System – file sharing across systems in a network |
+| **SMTP** | 25, 587 | Sends emails, handles **email delivery/authentication** |
+| **POP3** | 110 | Pulls email from server – **downloads inbox only**, doesn't sync |
+| **IMAP** | 143, 993 | **Views email on multiple devices**, syncs inbox across devices, caches locally |
+| **VOIP/SIP** | 5060 (unencrypted), 5061 (encrypted) | Converts voice to digital and transmits over internet; requires **high bandwidth** |
+
+---
+
+## Final Thoughts
+
+- Time is sacred. Guard it like treasure.
+- You don't need more time, just more direction.
+- The Application Layer provides the service.
+
+---
+
