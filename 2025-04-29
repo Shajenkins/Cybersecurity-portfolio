@@ -1,0 +1,107 @@
+Day In Review... Trying a new format
+DNS & Directory Services 
+
+On today's session, we reviewed and expanded our knowledge of **DNS (Domain Name System)**. Below is a breakdown of key concepts, processes, and terms discussed.
+
+---
+
+##  What is DNS?
+DNS translates **domain names** (ie Google.com) into **IP addresses** (like `8.8.8.8`) and vice versa. It's basically the phonebook of the internet.
+
+---
+
+##  DNS Lookup Process
+1. **Client (OS)** checks local DNS cache.
+2. If not found, checks the **`hosts` file**.
+3. If still unresolved, sends query to the **DNS resolver (usually ISP)**.
+4. Resolver checks its **cache**.
+5. If no match:
+   - Asks the **Root Server** (may respond with uncertainty).
+   - Gets referred to the **TLD Server** (`.com`, `.org`, `.net`, etc.).
+   - Then referred to the **Authoritative Name Server**, which holds the actual IP info.
+6. Resolver stores the result in **cache** and returns it to the client.
+
+---
+
+## Recursive vs Iterative DNS Queries
+- **Recursive Lookup**: DNS resolver is responsible for tracking down the full answer.
+- **Iterative Lookup**: Resolver asks each server in turn until the answer is found.
+
+---
+
+## FQDN - Fully Qualified Domain Name
+- An FQDN includes the full domain path, e.g., `www.example.com.`
+
+---
+
+## DNS Zones & Zone Types
+- A **DNS zone** is a portion of the DNS namespace managed by a DNS server.
+
+### Zone Types:
+1. **Primary Zone**: Editable, hosted on primary servers. Replicates for redundancy/load balancing.
+2. **Secondary Zone**: Read-only copy pulled from a primary server.
+3. **Cache-Only Zone**: Temporarily stores results using TTL (Time to Live).
+
+---
+
+## DNS Records (Zone File Entries)
+| Record | Description |
+|--------|-------------|
+| `A`    | Maps domain name to IPv4 address |
+| `AAAA` | Maps domain name to IPv6 address |
+| `CNAME`| Alias of one domain to another |
+| `MX`   | Mail exchange; must point to an `A` record |
+| `SOA`  | Start of Authority; holds admin info for the zone |
+| `NS`   | Name Server; defines authoritative DNS servers |
+| `SRV`  | Service record; includes port number for services |
+| `PTR`  | Pointer record; maps IP address to domain (reverse lookup) |
+| `TXT`  | Contains arbitrary text data; often used for SPF/DKIM (email) |
+
+---
+
+## Resolver Behavior
+- A resolver can be configured by an admin to contact specific DNS servers.
+- Works recursively or iteratively.
+- Stores answers in **cache** for performance.
+
+---
+
+## Forwarding
+- **Standard Forwarding**: If resolver can't resolve, it forwards the request to another DNS server.
+- **Conditional Forwarding**: Forwards requests **only** for specific domains.
+
+---
+
+## Active Directory (AD) & DNS
+- **Active Directory** controls users, computers, and permissions.
+- **IAM (Identity & Access Management)**: Defines *who you are*, *what you can access*, and *where your files live*.
+- The **Domain Controller (DC)** holds AD data and authenticates users.
+- **Internal DNS zones** should be private and blocked from the internet.
+- **External DNS zones** should be accessible from the internet.
+
+---
+
+## Key Terms
+- **TTL (Time To Live)**: How long DNS records are stored in cache.
+- **Zone Transfer**: Syncing DNS data from a primary to a secondary server.
+- **Root Server**: The top of the DNS hierarchy.
+- **TLD Server**: Manages domain extensions like `.com`, `.net`.
+
+---
+
+## Bonus Analogy
+- **Primary Zone** = The *player* (can be edited and replicated).
+- **Secondary Zone** = The *environment* (read-only, cloned from the player).
+- **Cache Zone** = The *ghost memory* (temporary but useful).
+
+---
+
+## Summary
+- DNS is critical for resolving domain names to IP addresses.
+- It uses a hierarchy of queries (recursive & iterative).
+- Zone types and record types define how data is stored and shared.
+- Forwarding helps distribute load and enhance resolution speed.
+- Active Directory tightly integrates with DNS for user management and authentication.
+
+---
+
