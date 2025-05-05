@@ -1,0 +1,85 @@
+Day In Review... Disaster Recovery & High Availability Systems
+Today’s session focused on Disaster Recovery Plans (DRP)—the strategies and actions taken to prevent, respond to, & recover from IT incidents while maintaining critical business functions.
+
+Organizational Priorities:
+We kicked things off with a reminder of the three core functions every business relies on:
+
+Operations
+Marketing
+Finance
+
+  Key Terms & Concepts:
+ 
+  Business Continuity:
+Business Continuity Plan (BCP): Strategy to minimize site-wide interruptions and maintain operations.
+Business Impact Analysis (BIA): Process of identifying mission-critical assets, processes, and operations.
+
+  Availability Tiers:
+High Availability: Always-on systems, minimal downtime, more fault-tolerant.
+Standard Availability: Lower fault tolerance, more prone to downtime.
+Five 9’s (99.999%) Uptime: Equates to ~5 minutes 15 seconds of annual downtime. etc.
+
+ Infrastructure Resilience:
+Clustering: Logical group of servers acting as one.
+RAID (Redundant Array of Independent Disks): Provides redundancy and performance.
+Load Balancing: Distributes workload across active/passive servers (think: theater understudy—if one fails, the other takes over).
+LBFO (Load Balancing Fail Over): Uses NIC teaming for redundant network paths and aggregate bandwidth.
+
+   Recovery Objectives:
+RTO (Recovery Time Objective): Max acceptable downtime after a disaster.
+RPO (Recovery Point Objective): Max acceptable amount of data loss.
+
+Ask yourself:
+
+"How much data can I afford to lose?"
+
+"How long can I afford to be down?"
+
+ Metrics & Monitoring:
+MTBF (Mean Time Between Failure): Average time system operates before failing.
+MTTF (Mean Time To Failure): Expected lifespan of non-repairable systems.
+MTTR (Mean Time To Repair): Time needed to repair a fault or failure.
+
+ Recovery Sites:
+Type	Characteristics
+Hot Site	Instant failover (seconds/minutes)
+Warm Site	Partial setup with some staff/data (hours)
+Cold Site	No equipment/data (days)
+Cloud Site	Hosted recovery with shared risk
+
+Power Management:
+
+Spike: Sudden voltage increase (milliseconds)
+Surge: Sustained voltage increase (seconds)
+Power Sag: Minor voltage drop
+Brownout: Prolonged under-voltage
+Blackout: Complete power loss
+
+PDU (Power Distribution Unit): Filters and stabilizes grid power
+Generator: Backup for grid, used with UPS (Uninterruptible Power Supply)
+
+Network & Multipathing:
+Multipathing: Host-to-host connection via multiple physical links (full/partial mesh)
+LACP (Link Aggregation Control Protocol): Combines multiple links into one logical channel
+Spanning Tree Protocol (STP): Prevents loops by disabling certain ports—highest priority number wins
+
+  Load Balancing Techniques:
+Round Robin: First come, first served
+Application-Aware Balancing: Based on performance data
+Weighted Average: Based on system capability or traffic need
+
+    System Management Tools:
+CDP / LLDP: Device discovery protocols
+QoS (Quality of Service): Network traffic prioritization
+Nmap: Network scanning
+SNMP: Network monitoring
+Wireshark: Packet analysis
+OID: Object Identifier in SNMP
+SIEM: Security Information and Event Management
+
+Today was all about preparing for the worst and recovering like a pro. 
+Understanding DRPs isn't just for the nerds in the server room—it’s business survival 101.
+We don't just react—we recover with strategy.
+
+
+
