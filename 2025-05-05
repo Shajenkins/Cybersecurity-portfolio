@@ -1,0 +1,123 @@
+Day In Review...
+
+The CIA Triad
+
+We started off by discussing the core pillars of security — the CIA Triad:
+- Confidentiality: Preventing unauthorized disclosure of information.
+- Integrity: Ensuring data is not modified or tampered with. Data should remain valid and unaltered.
+- Availability: Making sure information is accessible when needed.
+
+Non-Repudiation
+
+- This ensures that actions or transactions can’t be denied. Receipts — it’s proof.
+
+Threats, Vulnerabilities, and Risk
+
+- Threats: Potential cause of harm (e.g. hackers, natural disasters).
+- Vulnerabilities: Weaknesses in a system that could be exploited.
+- Risk: The intersection of a threat exploiting a vulnerability.
+
+Also discussed:
+- Likelihood: Probability of a risk happening.
+- Impact: The damage or consequence if it does.
+
+Security Audits
+
+A security audit is a systematic evaluation of:
+- Compliance
+- Risk
+- Technology
+
+Basically, you checking if your system's solid or not.
+
+Regulatory Standards
+
+- GDPR: EU’s regulation for data privacy and protection.
+- PCI DSS: Security standards for handling credit card transactions.
+
+ Cryptographic Concepts
+
+- Used to hide/encode data using math.
+- Hashing algorithms: MD5, SHA-128/256/512 — old and weak now, due to *collisions*.
+- Encryption: Converts plaintext to ciphertext.
+  - Symmetric: One private/shared key.
+  - Asymmetric: Public key + private key (e.g., RSA).
+
+State of Data
+
+- At Rest: Stored data (e.g., databases, drives).
+- In Transit: Moving through networks — protected by TLS, etc.
+- In Use: Actively processed — must secure data in RAM, etc.
+
+Zero-Day Vulnerabilities
+
+- Flaws that haven’t been discovered yet by developers.
+- No patch exists until it’s found 
+
+Patch
+
+- A software update that fixes bugs and vulnerabilities.
+
+Honeypots vs Honeynets
+
+- Honeypot: A decoy system designed to bait attackers.
+- Honeynet: A network of honeypots. Casts a wider net for more insight.
+
+Threat Actors
+
+- Nation States
+- Organized Crime
+- Hacktivists
+- Internal
+- External
+
+Enumeration
+
+- Process of gathering intel:
+  - Footprinting: Passive, non-intrusive.
+  - Fingerprinting: Active, intrusive .
+
+Denial of Service (DoS)
+
+- Overloading a system to knock it offline.
+- DDoS: Distributed DoS — coordinated attack using many systems.
+- Botnet: Network of infected devices (aka zombies).
+
+ Malware Types
+
+- Ransomware: Locks systems, demands payment.
+- Spoofing: Faking identity:
+  - MAC spoofing
+  - IP spoofing
+  - ARP cache poisoning
+- On-Path Attacks (aka Man-in-the-Middle):
+  - Session hijacking
+  - SSL stripping
+  - DNS spoofing
+  - WiFi spoofing
+  - ARP spoofing
+
+Network Attacks
+
+- MAC Flooding
+- VLAN Hopping
+- Rogue Devices
+- DHCP/DNS attacks
+- SOHO exploitation 
+
+Social Engineering
+
+Manipulation techniques used to exploit human behavior:
+- Impersonation
+- Phishing
+- Shoulder Surfing
+- Dumpster Diving
+- Tailgating (unauthorized access)
+- Piggybacking (authorized access with consent)
+
+Password Attacks
+
+- Dictionary Attack: Tries words from a dictionary.
+- Brute Force: Tries all combinations. Slow but effective if no protections.
+
+---
