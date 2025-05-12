@@ -1,0 +1,100 @@
+Day In Review...
+
+Authentication & Access Control Notes
+Password Attacks
+Dictionary Attack: Uses pre-defined words/phrases.
+
+Brute Force Attack: Tries every possible combo of letters, numbers, symbols.
+
+Defense: Awareness training, strong password policies.
+
+Authentication (Single/Multifactor)
+Verifies Identity of a User:
+
+Type 1: What you know (passwords, PINs, security questions)
+Type 2: What you have (tokens, smart cards, phones)
+Type 3: What you are (biometrics like fingerprints, facial features)
+Type 4: What you do (behavioral patterns)
+Type 5: Where you are (geolocation)
+
+Identity & Access Management (IAM)
+Identification: Making a claim (e.g., username)
+
+Authentication: Proving the claim
+
+Authorization: Granting access
+
+Accounting (Audit): Tracking activity
+
+Single Sign-On (SSO)
+One set of credentials to access multiple applications.
+
+Authentication Types
+Local Authentication
+Code used to validate users locally.
+
+Hashing: Secure storage of passwords.
+
+Data stored in cryptographic hash form.
+
+Central Authentication Server (CAS)
+Used with protocols like:
+
+Kerberos
+RADIUS
+TACACS+
+Active Directory
+Offers cost efficiency, consistent management.
+
+Certificates & Encryption
+Certificate Authority (CA)
+Trusted third-party that validates digital certs.
+
+Digital Certificates (X.509)
+Prove ownership of public key.
+
+Vendors: Amazon, Google, DigiCert, GoDaddy
+
+Digital Signatures
+Verifies identity, confirms integrity, ensures non-repudiation.
+
+Public Key Infrastructure (PKI)
+Framework for managing public/private keys, digital certs.
+
+Protocols & Systems
+Kerberos
+Provides SSO (used in Active Directory).
+
+Uses Ticket Granting Ticket (TGT) for secure identity management.
+
+Flow:
+Client requests service
+Server verifies via Key Distribution Center (KDC)
+
+TGS issues service ticket
+App Service accepts ticket
+
+AAA Model
+Authentication, Authorization, Accounting
+
+RADIUS (Remote Authentication Dial-In User Service)
+Uses ports 1812/1813 (UDP)
+
+Encrypts only the password
+
+TACACS+ (Terminal Access Controller Access Control System Plus)
+Admin-focused, more secure than RADIUS
+
+Encrypts the full packet using TCP port 49
+
+
+LightWeight Directory Access Protocol LDAP/AD
+Allows users and apps to find info on people, files, software, devices and organization on the internet
+Transmitted through HTTPS
+Centalized database
+Hierarchal tree
+LDAPS: Secure with digital cert. 
+Unsecure 389. Secure 636
+
+802.1x / NAC (Network Access Control) / EAP (Extensible Authentication Protocol)
+A way to authenticate computer
